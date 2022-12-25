@@ -1,0 +1,28 @@
+.messages
+  display: flex
+  flex-direction: column-reverse
+  font-size: 20px
+  &__item
+    max-width: 500px
+    overflow-wrap: break-word
+    padding: 14px
+    margin-bottom: 15px
+    width: fit-content
+
+    &-author
+      margin-bottom: 14px
+      font-weight: 500
+      font-style: italic
+    &-content
+      font-weight: 300
+      color: #131313
+  .my
+    align-self: flex-start
+    box-shadow: 0 0 15px #6fceb0
+    color: #24b34a
+    border-radius: 0 25px 25px 25px
+  .them
+    align-self: flex-end
+    box-shadow: 0 0 15px #d5d8d7
+    color: #ed582f
+    border-radius: 25px 0px 25px 25px
